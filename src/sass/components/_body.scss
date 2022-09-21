@@ -1,0 +1,7 @@
+body {
+  display: grid;
+  gap: 2rem;
+  width: min(100% - 2rem, 60ch);
+  margin-inline: auto;
+  font-family: var(--font-sans);
+}
