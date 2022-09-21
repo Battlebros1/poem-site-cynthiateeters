@@ -3,13 +3,17 @@
 .poem {
   // max-width: 30ch;
   margin-inline: auto;
+  font-size: var(--font-size-fluid-2);
 }
 
 .stanza {
-  margin-block: var(--size-fluid-3);
-  border: none;
-  //border: var(--border-size-2) solid var(--gray-3);
-  border: calc(var(--font-size-fluid-3) * 0.125) solid var(--gray-3);
-  border-radius: 50%;
-  background-color: var(--gray-3);
+  font-size: calc(var(--font-size-fluid-2) * 0.75);
+
+  &__rule {
+    margin-block: var(--size-fluid-3);
+    border: none;
+    border: calc(var(--font-size-fluid-3) * 0.125) solid var(--gray-3);
+    border-radius: 50%;
+    background-color: var(--gray-3);
+  }
 }
