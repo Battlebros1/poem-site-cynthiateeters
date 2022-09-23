@@ -22,6 +22,7 @@
     text-align: center;
     z-index: 1;
     padding-top: 10%;
+    height: max-content;
   }
 
 }
@@ -35,21 +36,7 @@
     margin-inline: auto;
   }
 
-  &__caption {
-    font-variant: small-caps;
-    font-size: var(--font-size-fluid-2);
-    letter-spacing: var(--font-letterspacing-2);
-    text-align: center;
 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
-    > * {
-      display: block;
-      width: max-content;
-    }
-  }
 
   &__img {
     border-radius: var(--radius-3);
