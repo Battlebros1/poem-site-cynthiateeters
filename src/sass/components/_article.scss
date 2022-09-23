@@ -1,8 +1,10 @@
 // _article.scss
+@use "../abstracts/mixins" as mixins;
 
 .poem {
-  display: grid;
-  gap: var(--size-fluid-3);
+  // display: grid;
+  // gap: var(--size-fluid-3);
+  @include mixins.simple-grid(var(--size-fluid-3));
 
   margin-inline: auto;
   font-size: var(--font-size-fluid-2);
