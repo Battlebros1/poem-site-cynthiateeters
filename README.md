@@ -28,4 +28,8 @@ Use this as the "Publish command" if needed by hosting services such as Netlify.
 
 ## Resources
 
-<small>The starter was inspired by [11ty Sass Skeleton](https://github.com/5t3ph/11ty-sass-skeleton) by [@5t3ph](https://twitter.com/5t3ph)</small>
+<small>The starter was inspired by [11ty Sass Skeleton](https://github.com/5t3ph/11ty-sass-skeleton) by [@5t3ph](https://twitter.com/5t3ph)
+
+Photo by [Suzanne D. Williams](https://unsplash.com/@scw1217?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/armadillo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
+Favicon by [Armadillo Vectors by Vecteezy](https://www.vecteezy.com/free-vector/armadillo) using work from [orangereebok](https://www.vecteezy.com/members/orangereebok)</small>
