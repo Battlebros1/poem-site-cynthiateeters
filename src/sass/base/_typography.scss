@@ -1,8 +1,13 @@
 /* typography */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@font-face {
+  font-family: 'Noto Sans';
+  src: url("../fonts/NotoSansDisplay-VariableFont_wdth,wght.ttf") format('truetype');
+  font-weight: 100 900;
+  font-display: swap;
+}
 
-$font: "Poppins", serif;
+$font: 'Noto Sans';
 
 // body font styling vars
 $body-font-size: 120%;
