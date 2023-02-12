@@ -5,6 +5,6 @@ body {
   @include mixins.simple-grid(2rem);
   width: min(100% - 2rem, 60ch);
   margin-inline: auto;
-  font-family: $font, var(--font-sans, sans);
+  font-family: $font, var(--font-sans, sans-serif);
   padding-block: 1rem;
 }

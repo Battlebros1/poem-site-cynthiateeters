@@ -2,11 +2,12 @@
 
 @font-face {
   font-family: 'Segoe UI VF';
-  src: url("../fonts/SegoeUI-VF.ttf");
+  src: url("../fonts/SegoeUI-VF.ttf") format('truetype');
+  font-weight: 1 900;
   font-display: swap;
 }
 
-$font: "Segoe UI VF", sans-serif;
+$font: "Segoe UI VF";
 
 // body font styling vars
 $body-font-size: 120%;
