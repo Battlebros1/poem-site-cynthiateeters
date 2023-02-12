@@ -1,8 +1,12 @@
 /* typography */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@font-face {
+  font-family: 'Segoe UI VF';
+  src: url("../fonts/SegoeUI-VF.ttf");
+  font-display: swap;
+}
 
-$font: "Poppins", serif;
+$font: "Segoe UI VF", sans-serif;
 
 // body font styling vars
 $body-font-size: 120%;

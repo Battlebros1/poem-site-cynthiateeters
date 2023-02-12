@@ -1,11 +1,12 @@
 @use "../abstracts/mixins" as mixins;
+@use "../base/typography" as *;
 
 .hero {
   // example from https://open-props.style
   line-height: var(--font-lineheight-1);
   font-size: var(--font-size-fluid-2);
   font-weight: var(--font-weight-9);
-  font-family: var(--font-sans);
+  font-family: $font, var(--font-sans, sans);
 
   // https: //css-tricks.com/positioning-overlay-content-with-css-grid/
 
